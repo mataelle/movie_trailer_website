@@ -2,7 +2,14 @@ import webbrowser
 
 
 class Movie():
-    '''Class representing a movie.'''
+    '''Class representing a movie.
+       Attributes:
+            title (string): the movie title
+            storyline (string): short story of the movie
+            poster_image_url (string): url containing image - poster to the movie
+            trailer_youtube_url (string): trailer url from youtube
+
+    '''
 
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):

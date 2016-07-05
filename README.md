@@ -7,3 +7,5 @@ To recreate html-file, ensure you have installed **python 2** and run following 
    ```python entertainment_center.py```
 
 The html-file will be created in your current directory.
+
+*fresh_tomatoes.py* was taken from [here](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py).
