@@ -47,7 +47,9 @@ pirates = media.Movie("Pirates of the Carribean",
                       "http://cdn.traileraddict.com/content/walt-disney-pictures/pirates.jpg",  # noqa
                       "https://www.youtube.com/watch?v=0Z1XpfbuZOA")
 
-
+# Put all movies in the list
 movies = [real_steel, inception, finding_nemo,
           ip_man, devil_wears_prada, pirates]
+
+# Create output html-page
 fresh_tomatoes.open_movies_page(movies)
